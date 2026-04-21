@@ -1,6 +1,6 @@
 1. Delete cached wallpaper
 
-    C:\Users\Admin\AppData\Roaming\Microsoft\Windows\Themes
+        C:\Users\Admin\AppData\Roaming\Microsoft\Windows\Themes
 
   Delete these files if present:
   - TranscodedWallpaper
@@ -8,7 +8,7 @@
 
 2. Reset theme to default
 
-    start %windir%\Resources\Themes\aero.theme
+        start %windir%\Resources\Themes\aero.theme
 
  👉 This forces Windows to reload its theme engine (important step)
 

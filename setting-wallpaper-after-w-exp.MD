@@ -20,4 +20,4 @@
    (Just to initialize PowerShell properly)\
    Then run:
 
-      powershell -command "(Add-Type '[DllImport(\"user32.dll\")]public static extern int SystemParametersInfo(int uAction,int uParam,string lpvParam,int fuWinIni);' -Name a -Pas)::SystemParametersInfo(20,0,'C:\Users\Admin\Downloads\dan-freeman-wAn4RfmXtxU-unsplash.jpg',3)"
+              powershell -command "(Add-Type '[DllImport(\"user32.dll\")]public static extern int SystemParametersInfo(int uAction,int uParam,string lpvParam,int fuWinIni);' -Name a -Pas)::SystemParametersInfo(20,0,'C:\Users\Admin\Downloads\dan-freeman-wAn4RfmXtxU-unsplash.jpg',3)"
